@@ -47,7 +47,12 @@ webpack index.js bundle.js
 ```
  Deberemos colcar este comando en el package.json como uno de los scripts y luego corremos la tarea:
 
- ```bash
-npm run build
- ```
+```bash
+npm run build 
+```
 
+## Creando un webpack.config
+
+* En esta parte del curso vamos a extender un poco más la configuración de WP.
+* También vamos a crear un nuevo archivo llamado webpack.config.js.
+* En este nuevo archivo que acabamos de crear vamos a definir el entry y el output de la aplicación.
