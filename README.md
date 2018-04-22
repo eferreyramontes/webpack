@@ -60,3 +60,7 @@ npm run build
 # Creando estilos
 
 Usamos los loaders css-loader y style-loader.
+
+# Plugins
+
+Para poner los archivos de css como un archivo externo, necesitamos usar un pluigin llamado extract-text-webpack-plugin.
