@@ -17,7 +17,7 @@ Qué es Webpack, para qué sirve y por qué deberías tomar este curso.
 
 * **OUTPUT**. Si bien le decimos cual es el archivo fuente, debemos decirle que hacer con eso y donde ponerlo, porque no queremos mezclar los archivos finales que lee el navegador con los archivos fuente.
 
-* **Loaders**. Nos ayudan a cargar todo tipo de formato de archivos. Ej: coffescript, jsx, 
+* **Loaders**. Nos ayudan a cargar todo tipo de formato de archivos. Ej: coffescript, jsx,
 
 * **Plugins**. nos ayudan a extender las caracteristicas de WP, por ejemplo comprimir archivos, dividir nuestros modulos en chunks, etc.
 
@@ -48,7 +48,7 @@ webpack index.js bundle.js
  Deberemos colcar este comando en el package.json como uno de los scripts y luego corremos la tarea:
 
 ```bash
-npm run build 
+npm run build
 ```
 
 ## Creando un webpack.config
@@ -56,3 +56,7 @@ npm run build
 * En esta parte del curso vamos a extender un poco más la configuración de WP.
 * También vamos a crear un nuevo archivo llamado webpack.config.js.
 * En este nuevo archivo que acabamos de crear vamos a definir el entry y el output de la aplicación.
+
+# Creando estilos
+
+Usamos los loaders css-loader y style-loader.

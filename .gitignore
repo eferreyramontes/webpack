@@ -57,3 +57,13 @@ typings/
 # dotenv environment variables file
 .env
 
+# IDEA
+.idea
+*.iml
+
+# Mac
+.DS_Store
+
+# NPM
+dist/
+package-lock.json
