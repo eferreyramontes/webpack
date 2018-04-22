@@ -64,3 +64,8 @@ Usamos los loaders css-loader y style-loader.
 # Plugins
 
 Para poner los archivos de css como un archivo externo, necesitamos usar un pluigin llamado extract-text-webpack-plugin.
+
+# Iniciando un servidor de desarrollo - Webpack DevServer
+
+https://webpack.js.org/configuration/dev-server/
+https://github.com/webpack/webpack-dev-server
