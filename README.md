@@ -78,3 +78,7 @@ https://github.com/babel/babel-loader
 # Clase 14 - Soporte de imágenes en Webpack
 
 https://github.com/webpack-contrib/url-loader
+
+# Soporte de fuentes en webpack
+
+https://www.fontsquirrel.com/
