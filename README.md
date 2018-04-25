@@ -74,3 +74,7 @@ https://github.com/webpack/webpack-dev-server
 Vamos a utilizar un nuevo loader; Babel-loader
 
 https://github.com/babel/babel-loader
+
+# Clase 14 - Soporte de imágenes en Webpack
+
+https://github.com/webpack-contrib/url-loader
