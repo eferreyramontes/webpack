@@ -5,7 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: {
-      entry: path.resolve(__dirname, 'index.js'),
+      index: path.resolve(__dirname, 'index.js'),
     },
     output: {
     	path: path.resolve(__dirname, 'dist'),
@@ -14,6 +14,15 @@ module.exports = {
     module: {
     	rules: [
     		// Aquí van los loaders
+        {
+          test: /\.js$/, // Qué tipo de archivos vamos a leer
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['es2015']
+            }
+          },
+        },
     		{
     			test: /\.css$/, // Qué tipo de archivos vamos a leer
     			use: ExtractTextPlugin.extract({

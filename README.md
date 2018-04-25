@@ -69,3 +69,8 @@ Para poner los archivos de css como un archivo externo, necesitamos usar un plui
 
 https://webpack.js.org/configuration/dev-server/
 https://github.com/webpack/webpack-dev-server
+
+# Soporte ECMA script
+Vamos a utilizar un nuevo loader; Babel-loader
+
+https://github.com/babel/babel-loader
