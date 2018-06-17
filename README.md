@@ -89,7 +89,7 @@ https://www.fontsquirrel.com/
 
 npm -i sass-loader
 
-# Estilos con Stylus
+# Clase 20 - Estilos con Stylus
 
 ```bash
 $ npm run build:stylus -- --watch
@@ -97,8 +97,16 @@ $ npm run build:stylus -- --watch
 
 [Stylus Loader](https://github.com/shama/stylus-loader)
 
-# Estilos con less
+# Clase 21 - Estilos con less
 
 [LESS Loader]https://github.com/webpack-contrib/less-loader
 
+# Clase 22 - Estilos con PostCSS
 
+Configuras el procesador como módulos. Estos módulos deben ser instalados.
+
+```bash
+$ npm run build:postcss -- --watch
+```
+
+[PostCSS Loader](https://github.com/postcss/postcss-loader)
