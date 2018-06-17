@@ -82,3 +82,9 @@ https://github.com/webpack-contrib/url-loader
 # Soporte de fuentes en webpack
 
 https://www.fontsquirrel.com/
+
+# Estilos con SASS
+
+[SASS LOADER](https://github.com/webpack-contrib/sass-loader)
+
+npm -i sass-loader
