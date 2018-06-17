@@ -88,3 +88,11 @@ https://www.fontsquirrel.com/
 [SASS LOADER](https://github.com/webpack-contrib/sass-loader)
 
 npm -i sass-loader
+
+# Estilos con Stylus
+
+```bash
+$ npm run build:stylus -- --watch
+```
+
+[Stylus Loader](https://github.com/shama/stylus-loader)
