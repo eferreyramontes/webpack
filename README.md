@@ -96,3 +96,9 @@ $ npm run build:stylus -- --watch
 ```
 
 [Stylus Loader](https://github.com/shama/stylus-loader)
+
+# Estilos con less
+
+[LESS Loader]https://github.com/webpack-contrib/less-loader
+
+
