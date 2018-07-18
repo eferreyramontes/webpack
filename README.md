@@ -123,4 +123,14 @@ Ya que vimos como empaquetar nuestras dependencias comunes y código que se repi
 $ npm run build:vendor
 ```
 
+# Clase 26 - Optimizando el paquete de dependencias comunes
+
+Por medio de estas librerías podemos evitar compilar las dependnecias comunes ya que estas no van a cambiar a menos que se cambie la versión.
+
+Vamos a necesitar dos archivos de configuración.
+
+```bash
+$ npm run build:vendor
+```
+
 
