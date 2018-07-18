@@ -110,3 +110,17 @@ $ npm run build:postcss -- --watch
 ```
 
 [PostCSS Loader](https://github.com/postcss/postcss-loader)
+
+# Clase 24 - Prevenir código duplicado
+
+![alt text](docs/clase_24_prevenir_codigo_duplicado.png "Prevenir Código Duplicado")
+
+# Clase 25 - Eligiendo dependencias comunes
+
+Ya que vimos como empaquetar nuestras dependencias comunes y código que se repite. Ahora veamos como podemos tomar la decisión de qué archivos poner como dependencia común a todo el proyecto.
+
+```bash
+$ npm run build:vendor
+```
+
+
