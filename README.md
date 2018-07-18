@@ -136,8 +136,27 @@ $ npm run build:ddl
 # Clase 27 - Enlazando un Dynamic Link Library
 
 ```bash
-$ npm run build:ddl:src
+$ npm run build:dll:src
 ```
 
+# Clase 28 - Cargando módulos asincronamente
+
+Es una herramienta muy útil debido al tamaño de los paquetes. Por medio de esta tool podrás descargar un módulo cuando realmente la necesites en algún evento que invoques.
 
 
+```bash
+$ npm run build:dynamic
+```
+
+Para usar la sintaxis de importación asíncrona, deberemos usar otro plugin de Babel; [babel-plugin-syntax-dynamic-import](https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import/).
+
+Se ha creado un módulo '0.js':
+
+          Asset       Size  Chunks                    Chunk Names
+           0.js  267 bytes       0  [emitted]
+        home.js     145 kB       1  [emitted]         home
+     contact.js     141 kB       2  [emitted]         contact
+   css/home.css     322 kB       1  [emitted]  [big]  home
+css/contact.css     322 kB       2  [emitted]  [big]  contact
+
+que contiene nuestro módulo alerta.
