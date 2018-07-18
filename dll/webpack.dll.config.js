@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
-    library: '[name]' // Recibirá el nombre dinámico de "modules"
+    library: '[name]' // variable global de referencia - Recibirá el nombre dinámico de "modules"
   },
   plugins: [
     new webpack.DllPlugin({

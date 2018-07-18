@@ -130,7 +130,14 @@ Por medio de estas librerías podemos evitar compilar las dependnecias comunes y
 Vamos a necesitar dos archivos de configuración.
 
 ```bash
-$ npm run build:vendor
+$ npm run build:ddl
 ```
+
+# Clase 27 - Enlazando un Dynamic Link Library
+
+```bash
+$ npm run build:ddl:src
+```
+
 
 
