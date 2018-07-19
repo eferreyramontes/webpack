@@ -160,3 +160,7 @@ Se ha creado un módulo '0.js':
 css/contact.css     322 kB       2  [emitted]  [big]  contact
 
 que contiene nuestro módulo alerta.
+
+# Clase 29 - Llevando un proyecto real a Webpack - preparación del entorno
+
+Podemos empezar un proyecto prefabricado con React por medio de esta librería de npm: [create-react-app](https://www.npmjs.com/package/create-react-app). Igualmente, nosotros usaremos un proyecto hecho en otro curso que lo obtuvimos del siguiente link `https://github.com/LeonidasEsteban/invie-animated`.
