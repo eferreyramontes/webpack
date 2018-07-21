@@ -164,3 +164,14 @@ que contiene nuestro módulo alerta.
 # Clase 29 - Llevando un proyecto real a Webpack - preparación del entorno
 
 Podemos empezar un proyecto prefabricado con React por medio de esta librería de npm: [create-react-app](https://www.npmjs.com/package/create-react-app). Igualmente, nosotros usaremos un proyecto hecho en otro curso que lo obtuvimos del siguiente link `https://github.com/LeonidasEsteban/invie-animated`.
+
+(Clase 30 fue un video que no suma nada).
+
+# Clase 31 - Llevando un proyecto real a Webpack - configuración para entornos de desarrollo
+
+```bash
+$ npm install -D babel-core babel-loader babel-preset-es2015 babel-preset-react style-loader css-loader url-loader file-loader webpack webpack-dev-server
+
+$ npm install babel-preset-stage-2
+``` 
+
