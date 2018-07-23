@@ -173,5 +173,9 @@ Podemos empezar un proyecto prefabricado con React por medio de esta librería d
 $ npm install -D babel-core babel-loader babel-preset-es2015 babel-preset-react style-loader css-loader url-loader file-loader webpack webpack-dev-server
 
 $ npm install babel-preset-stage-2
-``` 
+
+```
+
+# Clase 32 -Configuración para entornos de producción
+
 
